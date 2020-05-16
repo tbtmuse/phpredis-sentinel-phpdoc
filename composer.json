@@ -1,0 +1,22 @@
+{
+    "name": "tbtmuse/phpredis-sentinel-phpdoc",
+    "description": "Phpredis extension Sentinel stub for your IDE",
+    "keywords": [
+        "redis",
+        "sentinel",
+        "phpredis",
+        "helper"
+    ],
+    "homepage": "https://github.com/tbtmuse/phpredis-sentinel-phpdoc",
+    "license": "MIT",
+    "authors":[
+        {
+            "name": "Tawana Musewe",
+            "email": "tawana@aeonis.co.za"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ext-redis": ">=5.2"
+    }
+}

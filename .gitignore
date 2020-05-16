@@ -1,0 +1,9 @@
+.idea
+.env
+.DS_Store
+error_log
+Thumbs.db
+vendor
+.phpunit.result.cache
+composer.lock
+!.gitkeep
