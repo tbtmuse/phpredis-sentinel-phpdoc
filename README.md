@@ -19,4 +19,4 @@ Menu "File" -> "Settings" -> "Languages & Frameworks" -> "PHP" -> "Include Path"
 
 ## License
 
-This package is open-sourced software licensed under the [MIT license](license.md).
+This package is open-sourced software licensed under the [MIT license](LICENSE.md).
