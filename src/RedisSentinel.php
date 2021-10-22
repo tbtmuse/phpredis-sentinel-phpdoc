@@ -18,6 +18,7 @@ class RedisSentinel {
      * @param string|null $persistent    Persistent connection id (optional, default is null meaning not persistent)
      * @param int         $retryInterval Value in milliseconds (optional, default is 0)
      * @param float       $readTimeout   Value in seconds (optional, default is 0 meaning unlimited)
+     * @param string      $password      Sentinel Password if authentication is enabled
      *
      * @example
      * // 1s timeout, 100ms delay between reconnection attempts.
@@ -30,6 +31,7 @@ class RedisSentinel {
         ?string $persistent = null,
         int $retryInterval = 0,
         float $readTimeout = 0
+        ?string $password = null
     ) {}
 
     /**
